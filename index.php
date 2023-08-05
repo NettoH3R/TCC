@@ -7,15 +7,9 @@
     <title>##</title>
     <link rel="stylesheet" href="./css/defalut.css">
 </head>
-<style>
-</style>
-
 <body>
     <header>
-        <img src="./img/logo/logo_1nova.jpeg" class="tamanhologo" alt="Logo do nosso site">
-        <div class="direita">
-            <button class="botao">Entrar</button>
-        </div>
+        <img src="./img/logo/logo_1nova.png" class="tamanhologo" alt="Logo do nosso site">
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
