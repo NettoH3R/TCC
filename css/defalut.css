@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header,main,footer,nav{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    background-color: #FFFFFF;
+}
+
+main{
+    background-color: #6f6f6f;
+}
+
+footer{
+    background-color: #60A1F5;
+}
+header nav{
+    background-color: #244bbf;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+    min-height: 2rem;
+    align-items: center;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.naoclicavel{
+    pointer-events: none;
+}
+.tamanhologo{
+    width: 150px;
+    height: 160px;
+    padding: 10px;
+}
+.direita{
+    text-align: right;
+}

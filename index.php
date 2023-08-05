@@ -5,57 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>##</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/defalut.css">
 </head>
 <style>
-    .centro {
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-    }
-
-   .direita{
-    display: flex;
-    justify-content: flex-end;
-    height: 50px;
-    flex-direction: c;
-   }
-   
-    .menu {
-        background-color: orangered;
-    }
 </style>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="centro">
-                <img src="/img/logo/logo_1nova.jpeg" width="150px" height="165px" alt="logo do nosso site">
-            </div>
-            <div class="direita">
-                <button class="btn btn-primary me-md-2" type="button">Login</button>
-            </div>
-            <div class="direita">
-                <button class="btn btn-primary me-md-2" type="button">Cadastre-se</button>
-            </div>
+    <header>
+        <img src="./img/logo/logo_1nova.jpeg" class="tamanhologo" alt="Logo do nosso site">
+        <div class="direita">
+            <button class="botao">Entrar</button>
         </div>
-        <div>
-            <ul class="centro menu">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Generos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
-                </li>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li class="naoclicavel"><a href="#">|</a></li>
+                <li><a href="generos.php">Gêneros</a></li>
+                <li class="naoclicavel"><a href="#">|</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
             </ul>
-        </div>
+        </nav>
+    </header>
 
+    <main>
+        <h2>Main</h2>
+    </main>
 
-    </div>
-
+    <footer>
+        <h4>@copy desenvolvido pela Equipe 1 | 3ºETIM 2023</h4>
+    </footer>
 </body>
 
 </html>
