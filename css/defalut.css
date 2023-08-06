@@ -5,7 +5,9 @@
 }
 
 .footer{
-
+    background-color: #60A1F5;
+    color: #FFFFFF;
+    font-size: 16pt;
 }
 
 nav#menu{
@@ -30,7 +32,7 @@ ul li a{
     color: #FFFFFF;
 }
 ul li:hover{
-    background-color: #ff8f2d;
+    background-color: #60A1F5;
     border-radius: .5rem;
 }
 
@@ -62,7 +64,7 @@ ul li:hover{
     margin-left: 2%;
 }
 .btn-1:hover{
-    background-color: #506fca;
+    background-color: #60A1F5;
 }
 .btn-2:hover{
     background-color: #ffb26f;
@@ -84,7 +86,7 @@ ul li:hover{
 .quadradinho{
     width: 15%;
     height: 200px;
-    background-color: red;
+    background-color: #60A1F5;
     margin-left:5%;
     margin-right:5%;
 }

@@ -57,12 +57,9 @@
                                     Gêneros
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Gênero Musical 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Gênero Musical 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Gênero Musical 2</a></li>
                                 </ul>
                             </li>
                             <li class="naoclicavel"><a href="#">|</a></li>
@@ -85,21 +82,21 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="1000">
-                                <img src="img/logo/download.jpg" class="d-block w-100" alt="...">
+                                <img src="img/logo/download.jpg" class="d-block w-100" alt="Músicas mais visualizadas">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Exemplo Música 1</h5>
                                     <p>Um breve descrição da música 1.</p>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="1000">
-                                <img src="img/logo/download.jpg" class="d-block w-100" alt="...">
+                                <img src="img/logo/download.jpg" class="d-block w-100" alt="Músicas mais visualizadas">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Exemplo Música 2</h5>
                                     <p>Um breve descrição da música 2.</p>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="1000">
-                                <img src="img/logo/download.jpg" class="d-block w-100" alt="...">
+                                <img src="img/logo/download.jpg" class="d-block w-100" alt="Músicas mais visualizadas">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Exemplo Música 3</h5>
                                     <p>Um breve descrição da música 3.</p>
@@ -147,8 +144,8 @@
             </main>
         </div>
         <div class="container">
-            <footer>
-                <h4>@copy desenvolvido pela Equipe 1 | 3ºETIM 2023</h4>
+            <footer class="footer">
+                <h4 class="text-center">@copy desenvolvido pela Equipe 1 | 3ºETIM 2023</h4>
             </footer>
         </div>
     </main>
