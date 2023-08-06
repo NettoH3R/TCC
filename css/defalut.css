@@ -39,6 +39,10 @@ ul.menu .item + .item{
     margin-left: .5rem;
 }
 
+.btn-menu{
+    display: ;
+}
+
 
 
 .btn-1{
@@ -50,7 +54,6 @@ ul.menu .item + .item{
     height: 2rem;
     border-radius: .5rem;
     margin-top: 25%;
-    margin-right: 1rem;
 }
 
 .btn-2{

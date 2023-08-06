@@ -34,15 +34,15 @@
         <header id="cabecario">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 text-center">
+                    <div class="col-md-5 col-sm-7 text-center">
                     </div>
                     <div class="col-md-2 text-center">
                         <img src="./img/logo/logo_1nova.png" class="tamanhologo" alt="Logo do nosso site">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 ">
 
                     </div>
-                    <div class="col-md-3 text-center">
+                    <div class="col-md-3  col-sm-5 text-center">
                         <button type="button" class="btn-1">Entrar</button>
                         <button type="button" class="btn-2">Cadastrar</button>
                     </div>
