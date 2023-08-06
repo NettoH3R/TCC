@@ -12,11 +12,6 @@
     <link rel="stylesheet" href="./css/defalut.css">
 
     <style>
-        .tamanhologo {
-            max-width: 100%;
-            height: 100%;
-        }
-
         nav#menu {
             background-color: #244bbf;
         }
@@ -34,7 +29,7 @@
         <header id="cabecario">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5 col-sm-7 text-center">
+                    <div class="col-md-5 col-sm-7 ">
                     </div>
                     <div class="col-md-2 text-center">
                         <img src="./img/logo/logo_1nova.png" class="tamanhologo" alt="Logo do nosso site">
@@ -54,60 +49,30 @@
         <!-- Menu -->
 
 
-        <div class="container">
-            <nav id="menu">
+        <!-- <div class="container"> -->
+        <nav id="menu" class="text-center">
+                <ul id="menu" class="menu">
+
+                    <a href="index.php">
+                        <li class="item active">Home</li>
+                    </a>
 
 
-                <div class="row">
-                    <div class="col-md-12">
+                    <a href="index.php">
+                        <li class="item">Generos</li>
+                    </a>
 
 
-                        <ul id="menu" class="menu">
+                    <a href="sobre.php">
+                        <li class="item">Sobre</li>
+                    </a>
 
-                            <a href="index.php">
-                                <li class="item active">Home</li>
-                            </a>
-
-
-                            <a href="index.php">
-                                <li class="item">Home</li>
-                            </a>
-
-
-                            <a href="sobre.php">
-                                <li class="item">Sobre</li>
-                            </a>
-
-                        </ul>
-
-                        <button onclick="menu">
-                            <i class="menu-icon" data-feather="menu"></i>
-                        </button>
-
-                    </div>
-                </div>
-
-            </nav>
-        </div>
-
-        <script>
-            faether.replace();
-
-            function menu() {
-                const menu = document.getElementById("menu");
-                if (!menu.classList.contains("mobile")) {
-                    menu.classList.add("mobile");
-                } else {
-                    menu.classList.remove("mobile");
-                }
-            }
-        </script>
-
-
-
+                </ul>
+        </nav>
+        <!-- </div> -->
 
         <main>
-            <div class="container">
+            <!-- <div class="container">
                 <div id="carouselExampleCaptions" class="carousel slide">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -146,7 +111,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
+            </div> -->
         </main>
 
         <footer>
