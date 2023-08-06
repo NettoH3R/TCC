@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>##</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/defalut.css">
@@ -25,6 +26,11 @@
 
 <body>
     <main id="Tudo">
+
+
+        <!-- Cabeçario -->
+
+
         <header id="cabecario">
             <div class="container">
                 <div class="row">
@@ -43,36 +49,61 @@
                 </div>
             </div>
         </header>
+
+
+        <!-- Menu -->
+
+
         <div class="container">
             <nav id="menu">
+
 
                 <div class="row">
                     <div class="col-md-12">
 
-                        <ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li class="naoclicavel"><a href="#">|</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Gêneros
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="naoclicavel"><a href="#">|</a></li>
-                            <li><a href="sobre.php">Sobre</a></li>
+
+                        <ul id="menu" class="menu">
+
+                            <a href="index.php">
+                                <li class="item active">Home</li>
+                            </a>
+
+
+                            <a href="index.php">
+                                <li class="item">Home</li>
+                            </a>
+
+
+                            <a href="sobre.php">
+                                <li class="item">Sobre</li>
+                            </a>
+
                         </ul>
+
+                        <button onclick="menu">
+                            <i class="menu-icon" data-feather="menu"></i>
+                        </button>
+
                     </div>
                 </div>
 
             </nav>
         </div>
+
+        <script>
+            faether.replace();
+
+            function menu() {
+                const menu = document.getElementById("menu");
+                if (!menu.classList.contains("mobile")) {
+                    menu.classList.add("mobile");
+                } else {
+                    menu.classList.remove("mobile");
+                }
+            }
+        </script>
+
+
 
 
         <main>
@@ -85,14 +116,14 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="1000">
-                            <img src="img/logo/download.jpg" class="d-block w-100" alt="..." >
+                            <img src="img/logo/download.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="1000">
-                            <img src="img/logo/download.jpg" class="d-block w-100" alt="..." >
+                            <img src="img/logo/download.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Some representative placeholder content for the second slide.</p>
