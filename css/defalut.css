@@ -1,55 +1,50 @@
-@import url('../global/rest.css');
-
 main#tudo{
-
+    
 }
 
 header#cabecario{
-
-}
-
-a{
-    text-decoration: none;
+    
 }
 
 nav#menu{
     background-color: #244bbf;
-    min-height: 3rem;
-    display: flex;
-    align-items: center ;
-    justify-content: space-around;
+    height: 50px;
     margin-top: 20px;
-    padding-top: 1rem;
 }
 
-
-.item{
-    cursor: pointer;
-    display: inline;
-    color: #FFFFFF;
-    text-align: center;
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-evenly;
+    min-height: 2rem;
+    align-items: center;
+    padding-top: 12px;
+}
+ul li a{
     text-decoration: none;
-    font-weight: bold;
-    padding: .75rem .5rem;
-    width: 100%;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+li a:hover{
+    background-color: #ff8f2d;
 }
 
-.item:hover{
-    background: #ff8f2d;
-    border-radius: .75rem;
-    transition: .3s ease-out;
+.naoclicavel{
+    pointer-events: none;
 }
-
 
 .btn-1{
     background-color: #244bbf;
     color: #fff;
     border: none;
     cursor: pointer;
-    width: 5rem;
-    height: 2rem;
-    border-radius: .5rem;
+    width: 35%;
+    height: 25%;
+    border-radius: 8%;
     margin-top: 25%;
+    margin-right: 2%;
 }
 
 .btn-2{
@@ -57,17 +52,9 @@ nav#menu{
     color: #fff;
     border: none;
     cursor: pointer;
-    width: 5rem;
-    height: 2rem;
-    border-radius: .5rem;
-    margin-top: 5rem;
-}
-
-.tamanhologo {
-    max-width: 100%;
-    height: 100%;
-}
-
-p{
-    text-align: center;
+    width: 35%;
+    height: 25%;
+    border-radius: 7%;
+    margin-top: 25%;
+    margin-left: 2%;
 }
