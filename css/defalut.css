@@ -1,9 +1,11 @@
-main#tudo{
-    
+.main{
+    background-color: #BBBBBB;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-header#cabecario{
-    
+.footer{
+
 }
 
 nav#menu{
@@ -27,8 +29,9 @@ ul li a{
     font-weight: bolder;
     color: #FFFFFF;
 }
-li a:hover{
+ul li:hover{
     background-color: #ff8f2d;
+    border-radius: .5rem;
 }
 
 .naoclicavel{
@@ -57,4 +60,37 @@ li a:hover{
     border-radius: 7%;
     margin-top: 25%;
     margin-left: 2%;
+}
+.btn-1:hover{
+    background-color: #506fca;
+}
+.btn-2:hover{
+    background-color: #ffb26f;
+}
+.tamanhoCarrosel{
+    width: 70%;
+    height: 600px;
+    margin-left: 14%;
+    margin-right: 14%;
+    overflow: hidden; 
+    margin-bottom: 5%;
+
+}
+.quadradinhos{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.quadradinho{
+    width: 15%;
+    height: 200px;
+    background-color: red;
+    margin-left:5%;
+    margin-right:5%;
+}
+.album{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
 }
