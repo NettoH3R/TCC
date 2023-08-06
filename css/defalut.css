@@ -1,15 +1,15 @@
 main#tudo{
-    height:;
+    
 }
 
 header#cabecario{
-    height:;
+    
 }
 
 nav#menu{
     background-color: #244bbf;
-    height: 6vh;
-    margin-top: 2vh;
+    height: 50px;
+    margin-top: 20px;
 }
 
 ul{
@@ -20,6 +20,7 @@ ul{
     justify-content: space-evenly;
     min-height: 2rem;
     align-items: center;
+    padding-top: 12px;
 }
 ul li a{
     text-decoration: none;
@@ -41,7 +42,7 @@ li a:hover{
     cursor: pointer;
     width: 35%;
     height: 25%;
-    border-radius: 10%;
+    border-radius: 8%;
     margin-top: 25%;
     margin-right: 2%;
 }
@@ -53,7 +54,7 @@ li a:hover{
     cursor: pointer;
     width: 35%;
     height: 25%;
-    border-radius: 10%;
+    border-radius: 7%;
     margin-top: 25%;
     margin-left: 2%;
 }
