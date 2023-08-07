@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>##</title>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="js/menu.js"></script>
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/defalut.css">
 
@@ -48,18 +48,20 @@
         <div class="container">
 
             <nav id="menu">
-                <ul>
-                    <li><a href="#">Start</a>
-                    <li><a href="#">O nas</a>
-                    <li class="drop"><a href="#">Oferta</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Oferta 01</a></li>
-                            <li><a href="#">Oferta 02</a></li>
-                            <li><a href="#">Oferta 03</a></li>
-                        </ul>
+                <ul class="listMenu">
+                    <li class="itemMenu"><a href="#" class="letraMenu">Start</a></li>
+                    <li class="itemMenu"><a href="#" class="letraMenu">O nas</a></li>
+                    <li class="itemMenu letraMenu" onclick="toggleDropdown()">
+                        <p>Seloas</p>
+                        <div id="dropdownContent" class="dropdown-content">
+                            <a href="#" onclick="selectOption('Opção 1')">Opção 1</a>
+                            <a href="#" onclick="selectOption('Opção 2')">Opção 2</a>
+                            <a href="#" onclick="selectOption('Opção 3')">Opção 3</a>
+                            <a href="#" onclick="selectOption('Opção 4')">Opção 4</a>
+                        </div>
                     </li>
-                    <li><a href="#">Aktualności</a>
-                    <li><a href="#">Kontakt</a>
+                    <li class="itemMenu"><a href="#" class="letraMenu">Aktualności</a></li>
+                    <li class="itemMenu"><a href="#" class="letraMenu">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
