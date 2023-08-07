@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>##</title>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
+    <script src="js/menu.js"></script>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/defalut.css">
 
@@ -44,30 +46,21 @@
             </div>
         </header>
         <div class="container">
+
             <nav id="menu">
-
-                <div class="row">
-                    <div class="col-md-12">
-
-                        <ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li class="naoclicavel"><a href="#">|</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Gêneros
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Gênero Musical 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Gênero Musical 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Gênero Musical 2</a></li>
-                                </ul>
-                            </li>
-                            <li class="naoclicavel"><a href="#">|</a></li>
-                            <li><a href="sobre.php">Sobre</a></li>
+                <ul>
+                    <li><a href="#">Start</a>
+                    <li><a href="#">O nas</a>
+                    <li class="drop"><a href="#">Oferta</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Oferta 01</a></li>
+                            <li><a href="#">Oferta 02</a></li>
+                            <li><a href="#">Oferta 03</a></li>
                         </ul>
-                    </div>
-                </div>
-
+                    </li>
+                    <li><a href="#">Aktualności</a>
+                    <li><a href="#">Kontakt</a>
+                </ul>
             </nav>
         </div>
 

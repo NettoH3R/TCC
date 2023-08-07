@@ -1,16 +1,89 @@
-.main{
+.main {
     background-color: #BBBBBB;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.footer{
+.footer {
     background-color: #60A1F5;
     color: #FFFFFF;
     font-size: 16pt;
 }
 
-nav#menu{
+
+nav#menu {
+    margin: 0 auto;
+    max-width: 100%;
+    background: #008FEA;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .15);
+    margin-top: 10px;
+}
+
+nav#menu::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: rgba(255, 255, 255, .9);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus {
+    color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+    padding-left: 4px;
+    content: ' ▾';
+}
+
+nav ul li ul li {
+    min-width: 190px;
+}
+
+nav ul li ul li a {
+    background: transparent;
+    color: #555;
+    border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+    background: #eee;
+    color: #111;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
+/* nav#menu{
     background-color: #244bbf;
     height: 50px;
     margin-top: 20px;
@@ -38,9 +111,9 @@ ul li:hover{
 
 .naoclicavel{
     pointer-events: none;
-}
+} */
 
-.btn-1{
+.btn-1 {
     background-color: #244bbf;
     color: #fff;
     border: none;
@@ -52,7 +125,7 @@ ul li:hover{
     margin-right: 2%;
 }
 
-.btn-2{
+.btn-2 {
     background-color: #ff8f2d;
     color: #fff;
     border: none;
@@ -63,34 +136,40 @@ ul li:hover{
     margin-top: 25%;
     margin-left: 2%;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     background-color: #60A1F5;
 }
-.btn-2:hover{
+
+.btn-2:hover {
     background-color: #ffb26f;
 }
-.tamanhoCarrosel{
+
+.tamanhoCarrosel {
     width: 70%;
     height: 600px;
     margin-left: 14%;
     margin-right: 14%;
-    overflow: hidden; 
+    overflow: hidden;
     margin-bottom: 5%;
 
 }
-.quadradinhos{
+
+.quadradinhos {
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
 }
-.quadradinho{
+
+.quadradinho {
     width: 15%;
     height: 200px;
     background-color: #60A1F5;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-.album{
+
+.album {
     max-width: 100%;
     max-height: 100%;
     min-width: 100%;
