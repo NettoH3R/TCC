@@ -6,7 +6,7 @@ body{
 }
 
 .main {
-    background-color: #BBBBBB;
+    background-color: beige;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -16,115 +16,6 @@ body{
     color: #FFFFFF;
     font-size: 16pt;
 }
-
-
-nav#menu {
-    margin: 0 auto;
-    max-width: 100%;
-    background: #008FEA;
-    box-shadow: 0 3px 15px rgba(0, 0, 0, .15);
-    margin-top: 10px;
-    font-size: 15pt;
-    height: 4rem;
-}
-
-nav#menu::after {
-    display: block;
-    content: '';
-    clear: both;
-}
-
-.listMenu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    height: 100%;
-}
-
-.itemMenu {
-    float: left;
-    position: relative;
-    height: 100%;
-}
-
-.letraMenu{
-    display: block;
-    color: rgba(255, 255, 255, .9);
-    text-decoration: none;
-    padding: 1rem 2rem;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
-    transition: all .3s ease-in-out;
-    height: 100%;
-}
-
-.letraMenu:hover,
-.letraMenu:focus {
-    background: firebrick;
-}
-
-.letraMenu:focus {
-    color: white;
-}
-
-
-/* Estilo do menu dropdown (lista suspensa) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-/* Estilo dos itens no menu dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Estilo do hover nos itens do menu dropdown */
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-/* Estilo do botão quando o menu dropdown está aberto */
-.show {
-    display: block;
-}
-
-/* nav#menu{
-    background-color: #244bbf;
-    height: 50px;
-    margin-top: 20px;
-}
-
-ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
-    justify-content: space-evenly;
-    min-height: 2rem;
-    align-items: center;
-    padding-top: 12px;
-}
-ul li a{
-    text-decoration: none;
-    font-weight: bolder;
-    color: #FFFFFF;
-}
-ul li:hover{
-    background-color: #60A1F5;
-    border-radius: .5rem;
-}
-
-.naoclicavel{
-    pointer-events: none;
-} */
 
 .btn-1 {
     background-color: #244bbf;
